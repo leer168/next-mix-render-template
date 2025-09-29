@@ -28,7 +28,7 @@ export default async function SSRPage() {
 
   const codeExample = `// app/ssr/page.tsx
 // Force dynamic rendering - disable static optimization
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-static'
 
 export default async function SSRPage() {
   // This function runs on the server for EVERY request
