@@ -1,7 +1,7 @@
 import { PageLayout, DemoLayout, DataDisplay } from '@/components/layout'
 
 // Force dynamic rendering - disable static optimization
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-static'
 
 // Simulate fetching data from API, re-fetching every time
 async function getSSRData() {
