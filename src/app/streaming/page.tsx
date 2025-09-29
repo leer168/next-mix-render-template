@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button'
 import { Suspense } from 'react'
 
 // Force dynamic rendering - disable static optimization
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
+export const dynamic = 'force-static'
+// export const revalidate = 0
 
 // Simulate slow data fetching async component
 async function SlowDataComponent() {
@@ -156,8 +156,7 @@ export default function StreamingPage() {
             <pre className="text-sm">
               {`// app/streaming/page.tsx
 // Force dynamic rendering - disable static optimization
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
+export const dynamic = 'force-static'
 
 import { Suspense } from 'react'
 
