@@ -25,7 +25,7 @@ export default function EdgeFunctionsPage() {
       {/* Main title area */}
       <div className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold text-white mb-6">
-          EdgeOne Pages Next.js Starter - Edge Functions
+          ESA Pages Next.js Starter - Edge Functions
         </h1>
         <p className="text-xl text-gray-300 mb-4">
           Run code at the edge, no server management required, providing the lowest latency global deployment.
